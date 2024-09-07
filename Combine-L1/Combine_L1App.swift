@@ -11,7 +11,7 @@ import SwiftUI
 struct Combine_L1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstPipelineView()
         }
     }
 }
