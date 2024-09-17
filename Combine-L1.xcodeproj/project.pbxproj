@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C87479DA2C9920F300B25D76 /* FirstCancellablePipelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87479D92C9920F300B25D76 /* FirstCancellablePipelineView.swift */; };
+		C87479DC2C99239000B25D76 /* 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87479DB2C99239000B25D76 /* 3.swift */; };
 		C8A2CE892C8BB6BF007151C6 /* Combine_L1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2CE882C8BB6BF007151C6 /* Combine_L1App.swift */; };
 		C8A2CE8B2C8BB6BF007151C6 /* FirstPipelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2CE8A2C8BB6BF007151C6 /* FirstPipelineView.swift */; };
 		C8A2CE8D2C8BB6C0007151C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A2CE8C2C8BB6C0007151C6 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C87479D92C9920F300B25D76 /* FirstCancellablePipelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCancellablePipelineView.swift; sourceTree = "<group>"; };
+		C87479DB2C99239000B25D76 /* 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.swift; sourceTree = "<group>"; };
 		C8A2CE852C8BB6BF007151C6 /* Combine-L1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Combine-L1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A2CE882C8BB6BF007151C6 /* Combine_L1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_L1App.swift; sourceTree = "<group>"; };
 		C8A2CE8A2C8BB6BF007151C6 /* FirstPipelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPipelineView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C87479D72C9920A400B25D76 /* Lesson1 */ = {
+			isa = PBXGroup;
+			children = (
+				C8A2CE8A2C8BB6BF007151C6 /* FirstPipelineView.swift */,
+			);
+			path = Lesson1;
+			sourceTree = "<group>";
+		};
+		C87479D82C9920B600B25D76 /* Lesson2 */ = {
+			isa = PBXGroup;
+			children = (
+				C87479D92C9920F300B25D76 /* FirstCancellablePipelineView.swift */,
+				C87479DB2C99239000B25D76 /* 3.swift */,
+			);
+			path = Lesson2;
+			sourceTree = "<group>";
+		};
 		C8A2CE7C2C8BB6BE007151C6 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				C8A2CE882C8BB6BF007151C6 /* Combine_L1App.swift */,
-				C8A2CE8A2C8BB6BF007151C6 /* FirstPipelineView.swift */,
+				C87479D72C9920A400B25D76 /* Lesson1 */,
+				C87479D82C9920B600B25D76 /* Lesson2 */,
 				C8A2CE8C2C8BB6C0007151C6 /* Assets.xcassets */,
 				C8A2CE8E2C8BB6C0007151C6 /* Preview Content */,
 			);
@@ -138,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A2CE8B2C8BB6BF007151C6 /* FirstPipelineView.swift in Sources */,
+				C87479DC2C99239000B25D76 /* 3.swift in Sources */,
 				C8A2CE892C8BB6BF007151C6 /* Combine_L1App.swift in Sources */,
+				C87479DA2C9920F300B25D76 /* FirstCancellablePipelineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
