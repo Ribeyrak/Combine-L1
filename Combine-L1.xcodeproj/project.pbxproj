@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8350F872C9D01F30014F10E /* CurrentValueSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8350F862C9D01F30014F10E /* CurrentValueSubjectView.swift */; };
 		C87479DA2C9920F300B25D76 /* FirstCancellablePipelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87479D92C9920F300B25D76 /* FirstCancellablePipelineView.swift */; };
 		C87479DC2C99239000B25D76 /* 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87479DB2C99239000B25D76 /* 3.swift */; };
+		C87479DF2C9A7C2000B25D76 /* CancellingMultiplePipelinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87479DE2C9A7C2000B25D76 /* CancellingMultiplePipelinesView.swift */; };
 		C8A2CE892C8BB6BF007151C6 /* Combine_L1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2CE882C8BB6BF007151C6 /* Combine_L1App.swift */; };
 		C8A2CE8B2C8BB6BF007151C6 /* FirstPipelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2CE8A2C8BB6BF007151C6 /* FirstPipelineView.swift */; };
 		C8A2CE8D2C8BB6C0007151C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A2CE8C2C8BB6C0007151C6 /* Assets.xcassets */; };
@@ -16,8 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8350F862C9D01F30014F10E /* CurrentValueSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubjectView.swift; sourceTree = "<group>"; };
 		C87479D92C9920F300B25D76 /* FirstCancellablePipelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCancellablePipelineView.swift; sourceTree = "<group>"; };
 		C87479DB2C99239000B25D76 /* 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.swift; sourceTree = "<group>"; };
+		C87479DE2C9A7C2000B25D76 /* CancellingMultiplePipelinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellingMultiplePipelinesView.swift; sourceTree = "<group>"; };
 		C8A2CE852C8BB6BF007151C6 /* Combine-L1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Combine-L1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A2CE882C8BB6BF007151C6 /* Combine_L1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_L1App.swift; sourceTree = "<group>"; };
 		C8A2CE8A2C8BB6BF007151C6 /* FirstPipelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPipelineView.swift; sourceTree = "<group>"; };
@@ -36,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8350F852C9D01C40014F10E /* Lesson4 */ = {
+			isa = PBXGroup;
+			children = (
+				C8350F862C9D01F30014F10E /* CurrentValueSubjectView.swift */,
+			);
+			path = Lesson4;
+			sourceTree = "<group>";
+		};
 		C87479D72C9920A400B25D76 /* Lesson1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +63,14 @@
 				C87479DB2C99239000B25D76 /* 3.swift */,
 			);
 			path = Lesson2;
+			sourceTree = "<group>";
+		};
+		C87479DD2C9A7BA700B25D76 /* Lesson3 */ = {
+			isa = PBXGroup;
+			children = (
+				C87479DE2C9A7C2000B25D76 /* CancellingMultiplePipelinesView.swift */,
+			);
+			path = Lesson3;
 			sourceTree = "<group>";
 		};
 		C8A2CE7C2C8BB6BE007151C6 = {
@@ -75,6 +95,8 @@
 				C8A2CE882C8BB6BF007151C6 /* Combine_L1App.swift */,
 				C87479D72C9920A400B25D76 /* Lesson1 */,
 				C87479D82C9920B600B25D76 /* Lesson2 */,
+				C87479DD2C9A7BA700B25D76 /* Lesson3 */,
+				C8350F852C9D01C40014F10E /* Lesson4 */,
 				C8A2CE8C2C8BB6C0007151C6 /* Assets.xcassets */,
 				C8A2CE8E2C8BB6C0007151C6 /* Preview Content */,
 			);
@@ -159,6 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87479DF2C9A7C2000B25D76 /* CancellingMultiplePipelinesView.swift in Sources */,
+				C8350F872C9D01F30014F10E /* CurrentValueSubjectView.swift in Sources */,
 				C8A2CE8B2C8BB6BF007151C6 /* FirstPipelineView.swift in Sources */,
 				C87479DC2C99239000B25D76 /* 3.swift in Sources */,
 				C8A2CE892C8BB6BF007151C6 /* Combine_L1App.swift in Sources */,
